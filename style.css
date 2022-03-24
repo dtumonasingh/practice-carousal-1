@@ -1,1 +1,47 @@
+.carousal {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 
+.carousal__item {
+    height: 250px;
+    width: 500px;
+    border-radius: 40px;
+    left: 750px;
+    top: 300px;
+    position: absolute;
+}
+
+#item1{
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+#item2{
+    background-color: rosybrown;
+}
+
+#item3{
+    background-color: burlywood;
+}
+
+#item4{
+    background-color: gray;
+}
+
+#item5{
+    background-color: yellowgreen;
+}
+
+#left-arrow {
+    position: absolute;
+    left: 700px;
+    top : 520px;
+}
+
+#right-arrow {
+    position: absolute;
+    left:1270px;
+    top : 520px;
+}
